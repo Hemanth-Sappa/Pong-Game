@@ -4,8 +4,8 @@ import java.awt.event.KeyEvent;
 import java.util.Random;
 
 public class GamePanel extends Panel implements Runnable {
-    int Width = 1200;
-    int Height = (int)(Width*(0.500));
+    int Width = 1000;
+    int Height = (int)(Width*(0.556));
     Dimension screen = new Dimension(Width,Height);
 
     int Paddle_Width = 15;
