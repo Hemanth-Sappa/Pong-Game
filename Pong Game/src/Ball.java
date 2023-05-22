@@ -42,12 +42,12 @@ public class Ball extends Rectangle {
         g.fillOval(x,y,width,height);
 
         g.setColor(Color.WHITE);
-        g.drawLine(1200/2,0,1200/2,600);
+        g.drawLine(1000/2,0,1000/2,556);
 
         g.setColor(Color.WHITE);
-        g.drawRect(300,100,600,400);
+        g.drawRect(300,128,400,300);
 
         g.setColor(Color.WHITE);
-        g.drawOval(500,200,200,200);
+        g.drawOval(450,228,100,100);
     }
 }
