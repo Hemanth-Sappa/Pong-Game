@@ -3,7 +3,6 @@ import java.awt.*;
 
 public class GameFrame extends JFrame {
 
-
     GameFrame() {
         setTitle("Pong Game");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -13,10 +12,5 @@ public class GameFrame extends JFrame {
         pack();
         setLocationRelativeTo(null);
         setVisible(true);
-    }
-
-    public static void main(String[] args) {
-
-        GameFrame g = new GameFrame();
     }
 }
